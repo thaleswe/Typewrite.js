@@ -7,6 +7,31 @@
 	<br>
 </div>
 
-## `Getting Started`
-* <p>There is no complication, just add the script in your code and enjoy it</p>
+## Getting Started
 
+* There's no complication, just add the script `typewrite.js` to your code and select any writing method with the `typewrite` variable. Oh and enjoy it!
+
+<br> <br>
+
+## Methods
+- ## `simpleWrite`
+  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) &nbsp; Quickly and simply it makes the typing animation.
+ <br> <br>
+ ```
+ typewrite.simpleWrite(reference, [typeConfig])
+ ```
+ 
+ <br> 
+ 
+- ## `advancedWrite`
+  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) &nbsp; Write with pauses. You determine where to pause, define how long the pause will last, how and when the animation should follow.
+  <br> <br>
+ ```
+ typewrite.advancedWrite(parent, stepWrite, steps)
+ ```
+ 
+ <br> <br>
+ 
+ 
+ ## Parameters
+ 	Coming soon :)
