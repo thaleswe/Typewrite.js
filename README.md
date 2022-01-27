@@ -6,3 +6,7 @@
 	<br>
 	<br>
 </div>
+
+## `Getting Started`
+* <p>There is no complication, just add the script in your code and enjoy it</p>
+
