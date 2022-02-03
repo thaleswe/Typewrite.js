@@ -29,22 +29,35 @@
   
    ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) &nbsp; typeConfig -  ***optional***
    
-   - It's an Object that can contain 4 properties:
+   - It's an Object that can configure 4 properties in the animation:
 
-	  - preReveal
-	    - preReveal is the background color before revealing the text
+	  - revealing
+	    - ***revealing*** is the background color before revealing the text
 	    - Default value: #1d1e22
-	  - typeSpeed
-	    - typeSpeed is the typing animation speed
+	  - speed
+	    - ***speed*** is the typing animation speed
 	    - Default value: 1.5s
-	  - waitToStart
-	    - waitToStart is the time it waits before starting the typing animation
+	  - wait
+	    - ***wait*** is the time it waits before starting the typing animation
 	    - Default value: 0.3s
-	  - frame
-	    - frame work like the frame per second in the animation 
+	  - fps
+	    - ***fps*** is the frame per second in the animation 
 	    - Default value: 22
   
  <br> 
+ 
+ ```
+ Ex:
+	 typewrite.simpleWrite("h1", { speed: "3s", fps: "30" })
+ ```
+ 
+ <br> 
+ 
+ <hr> 
+ <hr>
+ 
+ <br>
+
  
 - ## `advancedWrite`
   ![#e77200](https://via.placeholder.com/15/e77200/000000?text=+) &nbsp; Write with pauses. You determine where to pause, define how long the pause will last, how and when the animation should follow.
@@ -53,8 +66,18 @@
  typewrite.advancedWrite(reference, [stepsConfig])
  ```
   ## *Parameters Explanation*
- 	Coming soon :)
- <br> <br>
+
+  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) &nbsp; reference -  ***required***
+
+  - It can be a selector, or an element
+
+  <br>
+  
+  ```
+  coming soon :)
+  
+   ...
+  ```
  
  
 
